@@ -2,6 +2,8 @@ import os
 import streamlit as st
 from openai import OpenAI
 
+st.set_page_config(page_title="Improve your conversation",
+                       page_icon=":beers:")
 st.title("Improve your conversation:")
 
 # Check if running inside a container
