@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from openai import OpenAI
 
-st.title("Get advice on how to improve your conversation:")
+st.title("Improve your conversation:")
 
 # Check if running inside a container
 in_container = os.getenv('IN_CONTAINER', 'False')  # Default to 'False' if not found
